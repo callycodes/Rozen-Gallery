@@ -54,7 +54,7 @@
     <span @click="selectedProject = null" class="close">X</span>
 
         
-<!--<model-viewer auto-rotate camera-orbit="10.73deg 75deg 40250m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 40250m" style="width: 1000px; height: 1000px" :src="'http://localhost:8080/' + selectedProject.model_src" camera-controls>
+<!--<model-viewer auto-rotate camera-orbit="10.73deg 75deg 40250m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 40250m" style="width: 1000px; height: 1000px" :src="'https://rozengallery.co.uk/' + selectedProject.model_src" camera-controls>
 
 </model-viewer>-->
 
@@ -191,7 +191,7 @@ export default {
           x: "450px",
           y: "0px",
           type: "carousel",
-          images: Array(6).fill(0).map((e,i)=>'http://localhost:8080/carousels/Sagrada/' + (i+1) + '.jpg'),
+          images: Array(6).fill(0).map((e,i)=>'https://rozengallery.co.uk/carousels/Sagrada/' + (i+1) + '.jpg'),
           title: "SAGRADA FAMILIA",
           description: "Drawn 2021<br><br>Sagrada is Anton Gaudis most famous Architectural masterpiece. The church, still laying under construction, was Gaudis lifelong work, which he spent his last years on.<br><br>Imaginary church underlies surreal, mythologic and metaphorical concepts, containing abstract iconography and episodic biblical references. It was designed Such that the building can be read by those seeking catholic faith, but at another level, studied theologically.<br><br>The true inspiration comes directly resembling nature, visually and technically. Gaudi believed that nature is a gift and nothing man-made should ever be higher than work of God. <br>Hence the height of the church drops few meters below the height of mountain Montjuic, Barcelona’s highest point. <br><br>Nature is displayed in almost every part of the church: the tree like columns, supporting the monument; fruits and herbs decorating the pillars; it can also be assumed that the positioning of the church embraces the colors of sunrise and sunset. <br><br>The church has three facades, each connected to a moment in life of Christ: the birth, passion/death, and his eternal glory. The positioning of the facades is believed as metaphor, a start of life and death. The façade of Christs births is Nativity façade and stands facing the sunrise, whilst the façade of Passion, and Christs death, where it sets.<br><br>There are literal remarks to biblical theme even within the structures of the church. Recently translated to build form, within the towers are Bishops symbols: mitre, staff and ring."
         },
@@ -204,7 +204,7 @@ export default {
           x: "-125px",
           y: "600px",
           type: "photobook",
-          images: Array(18).fill(0).map((e,i)=>'http://localhost:8080/photobooks/gaudi/' + (i+1) + '.jpg'),
+          images: Array(18).fill(0).map((e,i)=>'https://rozengallery.co.uk/photobooks/gaudi/' + (i+1) + '.jpg'),
           title: "GUADI PROJECT",
           description: "Drawn 2020<br><br>The photobook explores the Spanish architects, Antoni Gudis, work. <br><br>When visiting Barcelona for the first time in 2019, Gaudis work left an impression on me. The details of the buildings where phenomenal, with vividly tiled blues, yellows and greens in the Casa Batllo and Park Guell, as well as the detailed stories told through the statues and details in La Sagrada Familia. The shapes and unsymmetric symmetry, that allowed me to interpret his work in a whole new way.<br><br>Gaudi, inspiring his work by nature, resembles it back into his work, with structures replicating trees in the woods, and shapes that are organic; the movement of nature was also considered, with La Sagrada Familias facades facing in directions of sun rising and setting, such that it enters the coloured glass windows, decorating the inside of the church in cold tones, during sunrise, and warm tones, during sunset. Whilst visiting the church during a sunrise, I got to experience the coloured shadows, enhancing the height of the building from the inside, and decorating it in red and orange tones."
         },
@@ -217,7 +217,7 @@ export default {
           x: "1100px",
           y: "0px",
           type: "carousel",
-          images: Array(4).fill(0).map((e,i)=>'http://localhost:8080/carousels/Watercolour/' + (i+1) + '.jpg'),
+          images: Array(4).fill(0).map((e,i)=>'https://rozengallery.co.uk/carousels/Watercolour/' + (i+1) + '.jpg'),
           title: "WATERCOLOUR",
           description: "Within the small series I experimented with building shapes of watercolour, to resemble the statues of Greek mythology. I aimed to understand the depths of shadows, and built the painting like pieces of puzzle, with no previous outline of the shape of the statue."
         },
@@ -230,7 +230,7 @@ export default {
           x: "1150px",
           y: "700px",
           type: "photobook",
-          images: Array(16).fill(0).map((e,i)=>'http://localhost:8080/photobooks/emotions/' + (i+1) + '.jpg'),
+          images: Array(16).fill(0).map((e,i)=>'https://rozengallery.co.uk/photobooks/emotions/' + (i+1) + '.jpg'),
           title: "EMOTIONS",
           title_colour: 'brown',
           description: "Through colour, the photobook explores the journey of emotion of a young boy. From stages of curiosity and self-doubt, represented with orange and dark blue, to realisation and happiness, represented by uplifting yellow, the boy explores the unrealistic expectations the society has for him, and finds his identity past them."
@@ -244,7 +244,7 @@ export default {
           x: "1650px",
           y: "1000px",
           type: "photobook",
-          images: Array(22).fill(0).map((e,i)=>'http://localhost:8080/photobooks/platform4/' + (i+1) + '.png'),
+          images: Array(22).fill(0).map((e,i)=>'https://rozengallery.co.uk/photobooks/platform4/' + (i+1) + '.png'),
           title: "PLATFORM 4",
           description: "Platform 4 captures the always changing, fast moving environment of a train station. <br><br>There is a certain way f mood during each part of the day, which the book captures in a story telling way; by noon, the tense, dark mornings will always be replaced by relaxed, smiling faces of some, or a rush and midday tiredness of others. <br><br>The pace at which the strangers replaced one another, moving through this build fascinated me. I realised how everyone had their own journey, we just all just crossed paths for a short time under the roof of the train station, on our way to Platform 4."
         },
@@ -258,7 +258,7 @@ export default {
           y: "-300px",
           type: "carousel",
           title_colour: 'green',
-          images: Array(9).fill(0).map((e,i)=>'http://localhost:8080/carousels/Sketchup/' + (i+1) + '.jpg'),
+          images: Array(9).fill(0).map((e,i)=>'https://rozengallery.co.uk/carousels/Sketchup/' + (i+1) + '.jpg'),
           title: "REU RESIDENCE",
           description: "The project is a Sketchup drawing, which is part of a Design Principles module group project. In this project, as a team we were to design a four-bedroom family house, for a pitch of land that would be provided to us. Besides following the British Building Standards, we were free to interpret our own design, and develop it within our groups.<br><br>As the pitch of land is located in our university campus, we considered the exposure of the building to students, that live and study on the campus. We decided to approach the project as a visual break for the students, as well as the new occupants of the building, from the surrounding urban London landscapes, bringing in the aspects of nature, and the nearby nature reservoir. <br><br>Within our design we included a wall, covered in wooden panels, replicating the trees of the reservoir, and moss peeking through, to bring life to the building, as well as beneficially purify the surrounding air. The pond, positioned right outside the sunken living space, creates a secluded effect to the first floor. The sun reflection of water ripples would enter the house during the midday, creating closer to the nature feel within the house.<br><br>Stretching around the house, the steps crossing through the pond, reaching the outdoor office space; this was a specific consideration due to many more people completing work from home. The outside office space will create a feel of a journey from home. "
         },
@@ -271,7 +271,7 @@ export default {
           x: "1600px",
           y: "400px",
           type: "photobook",
-          images: Array(22).fill(0).map((e,i)=>'http://localhost:8080/photobooks/younger/' + (i+1) + '.png'),
+          images: Array(22).fill(0).map((e,i)=>'https://rozengallery.co.uk/photobooks/younger/' + (i+1) + '.png'),
           title: "TO MY YOUNGER SELF",
           title_colour: 'rgba(200, 100, 100, 1)',
           description: "A small but meaningful photo series that asks the question: “what advice would you give to your younger self?’’<br><br>A small question that moved strangers, and made them open up about some of their previous life regrets, and some heartfelt advice."
