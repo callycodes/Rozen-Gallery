@@ -33,7 +33,7 @@
 
   
   
-<agile ref="thumbnails" autoplay :as-nav-for="navForTwo" :options="thumbnailsOptions" :slides-to-show="4">
+<agile id="thumbnail-scroller" ref="thumbnails" autoplay :as-nav-for="navForTwo" :options="thumbnailsOptions" :slides-to-show="4">
   <div @click="$refs.carousel.goTo(index)" class="thumbnail-item" v-for="(image, index) in selectedProject.images" :key="index">
             <img :src="image"/>
         </div>
@@ -157,7 +157,7 @@ export default {
 					]
       },
       carouselOptions: {
-            navButtons: true,
+            navButtons: false,
             infinite: true,
             responsive: [
                 {
@@ -364,7 +364,7 @@ export default {
 .carousel {
   margin-top: 12vh;
   width: 100%;
-  height: 700px;
+  height: 600px;
   z-index: 102;
   padding: 5%;
 }
@@ -376,12 +376,12 @@ export default {
 }
 
 .slide {
-  height: 700px;
+  height: 600px;
 }
 
 .slide img {
 height: 100%;
-				object-fit: cover;
+				object-fit:contain;
 				object-position: center;
 				width: 100%;
 }
@@ -420,7 +420,6 @@ height: 100%;
   float: left;
 }
 
-
 .right .information {
   width: 100%;
   height: 600px;
@@ -441,6 +440,52 @@ height: 100%;
   font-size: 60px;
   text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+ .left {
+   width: 100%;
+   height: 500px;
+   float: left;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+
+#thumbnail-scroller {
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+  }
+
+
+.right .information {
+width: 100%;
+  height: 600px;
+  padding: 5vw;
+  padding-top: 25vh;
+  overflow-y:visible;
+  }
+
+  .right .project-description {
+    margin-right: 8vw;
+    }
+
+    .carousel {
+      height: auto;
+}
+
+#project-display {
+  overflow-y: scroll;
+  }
+
+.slide {
+  height: 400px;
+  }
+}
+
 
 #scene {
   position: absolute;
